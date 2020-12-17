@@ -29,10 +29,10 @@ move *.gif Photos
 move *.bmp Photos
 
 rem videos
-move *.mp4 Photos
-move *.wmv Photos
-move *.avi Photos
-move *.mkv Photos
+move *.mp4 Videos
+move *.wmv Videos
+move *.avi Videos
+move *.mkv Videos
 
 echo Done!
 pause
