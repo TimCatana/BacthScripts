@@ -7,6 +7,7 @@ set /p director= Enter the directory you wish to sort or enter "exit" (all lower
 :: check for exit
 if "%director%"=="exit" goto :END 
 
+:: check to see if inputted directory is valid
 if exist %director% ( echo beginning sorting process ) ELSE ( cls && echo Invalid Directory - please try again && goto :LOOP )
 
 :: create folders inside given directory if they don't exist already
